@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>counter-app</title>
+    <link rel="stylesheet" href="../bootstrap.min.css">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Caprasimo&family=Lora:ital@1&family=Pacifico&display=swap" rel="stylesheet">
+   <script src="./index.js"></script>
+   
+   
+</head>
+<body>
+    <!-- Image and text -->
+    <nav class="navbar navbar-light bg-light">
+        <a class="navbar-brand" href="./index.html">
+        <img class ="rounded-circle " src="./assets/logo.png" width="60" height="60" class="d-inline-block  align-middle" alt=""></a>
+        <p class="display-3 inline-block">Daily counter application</p>
+        
+  </nav>
+
+    <div class=" grid container">
+        <div class="row">
+
+            <div class="col-12 col-sm-12 col-md-6">
+               <div class="container p-3">
+                <div class="row">
+                    <div class="number col-6 ">
+                        <h1 class="display-1" id="water-count">0</h1>
+                    </div>
+                    <div class="col-6">
+                        <div class="row">
+                            <h1>water</h1>
+                        </div>
+                        <div class="row">
+                            <div class="col-6">
+                                <button type="button" id="water-countba" onclick="add('water-count')" >+</button>
+                            </div>
+                            <div class="col-6">
+                                <button onclick="subs('water-count') " id="water-countbs" >-</button>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+               </div>
+            </div>
+
+
+            <div class="col-12 col-sm-12 col-md-6">
+                
+                    <div class="container p-3 ">
+                     <div class="row">
+                         <div class="number col-6 ">
+                             <h1 class="display-1" id="lemon-juice">0</h1>
+                         </div>
+                         <div class="col-6">
+                             <div class="row">
+                                 <h1>lemon juice</h1>
+                             </div>
+                             <div class="row">
+                                 <div class="col-6">
+                                     <button onclick="add('lemon-juice')" id="lemon-juiceba">+</button>
+                                 </div>
+                                 <div class="col-6">
+                                     <button onclick="subs('lemon-juice')" id="lemon-juicebs">-</button>
+                                 </div>
+                             </div>
+                             
+                         </div>
+                     </div>
+                
+                 </div>  
+            </div>
+
+
+            <div class="col-12 col-sm-12 col-md-6">
+                
+                    <div class="container p-3">
+                     <div class="row">
+                         <div class="number col-6 ">
+                             <h1 class="display-1" id="orange-juice">0</h1>
+                         </div>
+                         <div class="col-6">
+                             <div class="row">
+                                 <h1>orange juice</h1>
+                             </div>
+                             <div class="row">
+                                 <div class="col-6">
+                                     <button onclick="add('orange-juice')" id="orange-juiceba">+</button>
+                                 </div>
+                                 <div class="col-6">
+                                     <button onclick="subs('orange-juice') " id="orange-juicebs">-</button>
+                                 </div>
+                             </div>
+                             
+                         </div>
+                     </div>
+                    </div>
+                 
+            </div>
+
+
+            <div class="col-12 col-sm-12 col-md-6">
+               
+                    <div class="container p-3">
+                     <div class="row">
+                         <div class="number col-6 ">
+                             <h1 class="display-1 " id="milk">0</h1>
+                         </div>
+                         <div class="col-6">
+                             <div class="row">
+                                 <h1>milk</h1>
+                             </div>
+                             <div class="row">
+                                 <div class="col-6">
+                                     <button onclick="add('milk')" id="milkba">+</button>
+                                 </div>
+                                 <div class="col-6">
+                                     <button onclick="subs('milk')" id="milkbs">-</button>
+                                 </div>
+                             </div>
+                             
+                         </div>
+                     </div>
+                    </div>
+                
+            </div>
+        </div>
+
+
+    </div>
+
+
+    <footer class="footer mt-auto py-3 bg-light ">
+        <div class="container">
+          <span class="text-muted">Developed by menati vijaya simha Reddy</span>
+        </div>
+      </footer>
+
+</body>
+</html>

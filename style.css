@@ -1,0 +1,22 @@
+.number{
+    
+}
+body{
+    background-image: url("./assets/pexels-photomix-company-105028.jpg");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    
+}
+.grid-container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+button{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+}
+
